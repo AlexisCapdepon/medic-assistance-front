@@ -1,5 +1,6 @@
 import logo from "../logo.svg";
 import "../styles/App.scss";
+import Register from "../components/Register/Register"
 
 const App: React.FC = () => (
   <div className="App">
@@ -17,6 +18,7 @@ const App: React.FC = () => (
         Learn React
       </a>
     </header>
+    <Register/>
   </div>
 );
 
